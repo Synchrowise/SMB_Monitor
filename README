@@ -1,0 +1,5 @@
+Use the script to check every 1 minute if an active connexion to your SMB service has taken place.
+The script doesn't need administrative rights as it only relies on the netstat command. Just fire it using a command prompt.
+The script logs any SMB connexion into a txt file created in the same directory as the script
+The script will allow you to check if someone has the ability to explore your files over the network. Just check the txt file to 
+see any trace of this
